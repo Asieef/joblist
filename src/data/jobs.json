@@ -1,0 +1,103 @@
+[
+      {
+        "img": "./src/assets/photosnap.svg",
+        "company": "Photosnap",
+        "title": "Senior Frontend Developer",
+        "posted": "1d ago",
+        "type": "Full Time",
+        "location": "USA Only",
+        "featured": true,
+        "tags": ["Frontend", "Senior", "HTML", "CSS", "Javascript"]
+      },
+      {
+        "img": "./src/assets/manage.svg",
+        "company": "Manage",
+        "title": "Fullstack Developer",
+        "posted": "1d ago",
+        "type": "Part Time",
+        "location": "Remote",
+        "featured": true,
+        "tags": ["Fullstack", "Midweight", "Python", "React"]
+      },
+      {
+        "img": "./src/assets/account.svg",
+        "company": "Accout",
+        "title": "Junior Frontend Developer",
+        "posted": "2d ago",
+        "type": "Part Time",
+        "location": "USA Only",
+        "featured": false,
+        "tags": ["Frontend", "Junior", "React", "Sass", "Javascript"]
+      },
+      {
+        "img": "./src/assets/myhome.svg",
+        "company": "MyHome",
+        "title": "Junior Frontend Developer",
+        "posted": "5d ago",
+        "type": "Contract",
+        "location": "USA Only",
+        "featured": false,
+        "tags": ["Frontend", "Junior", "Css", "Javascript"]
+      },
+
+      {
+        "img": "./src/assets/loop-studios.svg",
+        "company": "Loop Studios",
+        "title": "Software Engineer",
+        "posted": "1w ago",
+        "type": "Full Time",
+        "location": "Worldwide",
+        "featured": false,
+        "tags": ["Fullstack", "Midweight", "Javascript", "Sass", "Ruby"]
+      },
+      {
+        "img": "./src/assets/faceit.svg",
+        "company": "FaceIt",
+        "title": "Junior Backend Developer",
+        "posted": "2w ago",
+        "type": "Full Time",
+        "location": "UK Only",
+        "featured": false,
+        "tags": ["Backend", "Junior", "Ruby", "RoR"]
+      },
+      {
+        "img": "./src/assets/shortly.svg",
+        "company": "Shortly",
+        "title": "Junior Developer",
+        "posted": "2w ago",
+        "type": "Full Time",
+        "location": "Worldwide",
+        "featured": false,
+        "tags": ["Frontend", "Junior", "HTML", "Sass", "Javascript"]
+      },
+      {
+        "img": "./src/assets/insure.svg",
+        "company": "Insure",
+        "title": "Junior Frontend Developer",
+        "posted": "2w ago",
+        "type": "Full Time",
+        "location": "USA Only",
+        "featured": false,
+        "tags": ["Frontend", "Junior", "Vue", "Javascript", "Sass"]
+      },
+      {
+        "img": "./src/assets/eyecam-co.svg",
+        "company": "Eyecam Co.",
+        "title": "Full Stack Engineer",
+        "posted": "3w ago",
+        "type": "Full Time",
+        "location": "Worldwide",
+        "featured": false,
+        "tags": ["Fullstack", "Midweight", "Javascript", "Django", "Python"]
+      },
+      {
+        "img": "./src/assets/the-air-filter-company.svg",
+        "company": "The Air Filter company",
+        "title": "Front-end Dev",
+        "posted": "1m ago",
+        "type": "Part Time",
+        "location": "Worldwide",
+        "featured": false,
+        "tags": ["Frontend", "Junior", "React", "Sass", "Javascript"]
+      }
+    ]
