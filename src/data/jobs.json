@@ -7,6 +7,7 @@
         "type": "Full Time",
         "location": "USA Only",
         "featured": true,
+        "new": true,
         "tags": ["Frontend", "Senior", "HTML", "CSS", "Javascript"]
       },
       {
@@ -17,6 +18,7 @@
         "type": "Part Time",
         "location": "Remote",
         "featured": true,
+        "new": true,
         "tags": ["Fullstack", "Midweight", "Python", "React"]
       },
       {
@@ -27,6 +29,7 @@
         "type": "Part Time",
         "location": "USA Only",
         "featured": false,
+        "new": true,
         "tags": ["Frontend", "Junior", "React", "Sass", "Javascript"]
       },
       {
@@ -37,6 +40,7 @@
         "type": "Contract",
         "location": "USA Only",
         "featured": false,
+        "new": false,
         "tags": ["Frontend", "Junior", "Css", "Javascript"]
       },
 
@@ -48,6 +52,7 @@
         "type": "Full Time",
         "location": "Worldwide",
         "featured": false,
+        "new": false,
         "tags": ["Fullstack", "Midweight", "Javascript", "Sass", "Ruby"]
       },
       {
@@ -58,6 +63,7 @@
         "type": "Full Time",
         "location": "UK Only",
         "featured": false,
+        "new": false,
         "tags": ["Backend", "Junior", "Ruby", "RoR"]
       },
       {
@@ -68,6 +74,7 @@
         "type": "Full Time",
         "location": "Worldwide",
         "featured": false,
+        "new": false,
         "tags": ["Frontend", "Junior", "HTML", "Sass", "Javascript"]
       },
       {
@@ -78,6 +85,7 @@
         "type": "Full Time",
         "location": "USA Only",
         "featured": false,
+        "new": false,
         "tags": ["Frontend", "Junior", "Vue", "Javascript", "Sass"]
       },
       {
@@ -88,6 +96,7 @@
         "type": "Full Time",
         "location": "Worldwide",
         "featured": false,
+        "new": false,
         "tags": ["Fullstack", "Midweight", "Javascript", "Django", "Python"]
       },
       {
@@ -98,6 +107,7 @@
         "type": "Part Time",
         "location": "Worldwide",
         "featured": false,
+        "new": false,
         "tags": ["Frontend", "Junior", "React", "Sass", "Javascript"]
       }
     ]
