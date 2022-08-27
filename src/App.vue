@@ -2,10 +2,9 @@
 
 <template>
   <div class="bg-[#F0FAFB] h-fit">
-    <div class="relative">
-      <img class="" src="./assets/bg-header-desktop.svg" />
+    <div class="bg-teal-600 h-36 bg-[url('./assets/bg-header-desktop.svg')]">
       <div
-        class="absolute w-[800px] shadow h-12 left-60 bg-white top-28 px-6 grid grid-cols-10 rounded"
+        class="w-1/2 mx-auto shadow h-12 px-6 grid grid-cols-10 rounded bg-white"
       >
         <div class="col-span-8 flex items-center">
           <button
@@ -33,13 +32,13 @@
 
     <div class="grid grid-flow-row justify-items-center gap-4 mt-20 py-8">
       <div
-        v-for="(job, index) in filteredJobs"
+        v-for="(job, index) in jobs"
         :key="index"
         class="bg-white px-8 py-6 rounded-md w-[900px]"
       >
         <div class="grid grid-cols-7 gap-4">
           <div class="col-span-1">
-            <img :src="job.img" :alt="company" />
+            <img :src="job.img" :alt="job.company" />
           </div>
           <div class="col-span-3 grid grid-flow-row content-center">
             <h3 class="text-sm text-[#729C9B] font-bold">
@@ -84,15 +83,11 @@ export default {
   },
 
   computed: {
-    filteredJobs() {
-      if (this.tag) {
-        return this.jobs.filter((job) => {
-          return job.tags.includes(this.tag);
-        });
-      } else {
-        return this.jobs;
-      }
-    },
+    // filteredJobs() {
+    //   return this.jobs.filter((job) => {
+    //     return job.tags.indexOf(this.tag.toLowerCase()) > -1;
+    //   });
+    // },
   },
 
   methods: {
@@ -112,16 +107,14 @@ export default {
     },
 
     clearThis(clip) {
-      console.log(clip);
       this.clips = this.clips.filter((data) => data != clip);
-      this.tag = "";
+      this.jobs = jobs;
+      this.clips.map((clip) => {
+        this.jobs = this.jobs.filter((job) => {
+          return job.tags.includes(clip);
+        });
+      });
     },
-
-    // removeJobs(tag) {
-    //   this.jobs = this.jobs.filter((job) => {
-    //     return job.tags.includes(tag);
-    //   });
-    // },
   },
 };
 </script>
