@@ -47,7 +47,7 @@
         <div class="grid lg:grid-cols-7 grid-cols-1 gap-4 relative">
           <div class="col-span-1">
             <img
-              class="w-16 absolute -top-14 -left-2"
+              class="w-16 lg:w-24 absolute -top-14 -left-2 lg:top-0 lg:right-0"
               :src="job.img"
               :alt="job.company"
             />
